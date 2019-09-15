@@ -2,9 +2,16 @@ body {
   background: #000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   font-size: 18px;
+}
 
+.btn {
+  cursor: pointer;
 }
 
 ul {
@@ -128,10 +135,25 @@ textarea.expand {
 
 }
 
-.slick-next:before{
-	content: '>';
+.slick-next:before {
+  content: '>';
 }
 
-.slick-prev:before{
-	content: '<';
+.slick-prev:before {
+  content: '<';
+}
+
+.btn-primary {
+  background: #DAA520;
+  border: 0;
+  outline: none;
+
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: #FFA500 !important;
+  border: 0;
+  outline: none;
 }
